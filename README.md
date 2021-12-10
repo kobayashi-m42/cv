@@ -109,7 +109,7 @@ VPCやCloudWatch等のAWSを利用すれば必ず利用するような物は含�
 
 ## 主な業務経歴
 
-### 社内向けアプリケーションの新規開発
+### 社内向けアプリケーションの新規開発 (2020-2021)
 - 利用した技術
   - Spring Boot、Kotlin
   - React、TypeScript
@@ -122,7 +122,7 @@ VPCやCloudWatch等のAWSを利用すれば必ず利用するような物は含�
 - プロジェクトの成果
   - フロントエンドからインフラ構築まで全ての行程を担当
 
-### 金融系企業でAWSを中心としたインフラの構築、監視基盤の構築
+### 金融系企業でAWSを中心としたインフラの構築、監視基盤の構築 (2019-2021)
 - 利用した技術
   - AWS
   - Datadog
@@ -149,7 +149,7 @@ VPCやCloudWatch等のAWSを利用すれば必ず利用するような物は含�
   - チームにTerraformを扱ったことがあるメンバーが少なかったのでTerraformの社内向けの勉強会を開催し、インフラ担当者以外もTerraformを利用してAWSの設定ができるようになった
     - 勉強会を録画として残すことで、新規メンバーが参画した際もTerraformのキャッチアップできる環境になっている
 
-### EC2で作成されているWebAPIをDockerに移行(Docker/AWS)
+### EC2で作成されているWebAPIをDockerに移行(Docker/AWS) (2019)
 - 利用した技術
   - Docker
   - AWS ECS（Fargate）
@@ -161,7 +161,7 @@ VPCやCloudWatch等のAWSを利用すれば必ず利用するような物は含�
   - ローカル開発環境のDocker移行により、チームメンバー間の環境構築における差異を最小化した 
   - デプロイを簡素化し、開発生産性を向上した
 
-### メディア系Webアプリケーションの開発(Nuxt.js/Laravel/AWS)
+### メディア系Webアプリケーションの開発(Nuxt.js/Laravel/AWS) (2019)
 - 利用した技術
   - Nuxt.js
   - TypeScript
