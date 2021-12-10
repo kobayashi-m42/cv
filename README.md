@@ -3,19 +3,21 @@
 ## 基本情報
 |key|value|
 |---|---|
-|Location|Tokyo|
 |GitHub|[kobayashi-m42](https://github.com/kobayashi-m42)|
 |GitHub(友人と共同で運営しているOrganization)|[nekochans](https://github.com/nekochans)|
 |Qiita|[@kobayashi-m42](https://qiita.com/kobayashi-m42)|
-|Twitter|[@kobayashi-m42](https://twitter.com/kobayashi_m42)|
+|Zenn|[@kobayashi-m42](https://zenn.dev/kobayashi_m42)|
 |個人プロダクト|[Mindexer](https://www.mindexer.net)(Qiitaのストックを整理するためのサービスです)|
+|個人プロダクト|[LGTMeow](https://lgtmeow.com)(猫のLGTM画像を共有出来るサービスです)|
+|Twitter|[@kobayashi-m42](https://twitter.com/kobayashi_m42)|
 
 ## 概要
-都内在住のWeb系エンジニアです。現在は、フリーランスとして活動。
+Web系エンジニアです。現在は、フリーランスとして活動。
 
-AWSを利用したインフラ構築、バックエンドをメインとしています。
+AWSを利用したインフラ構築、監視基盤の構築、バックエンドをメインとしています。
 
 ## 強み
+- AWSを得意とし、インフラ、監視の設計・構築・運用が出来ます。
 - コードによるクラウドインフラ構成管理の自動化。コード化することで、インフラを安全かつ効率的に管理します。
 - テストコードや設計手法を工夫した、保守性・拡張性の高いシステムを構築するすることが可能です。
 - アジャイル開発によるプロジェクト管理経験があり、アジャイル開発を用いたチームビルディングが出来ます。
@@ -34,22 +36,27 @@ AWSを利用したインフラ構築、バックエンドをメインとして�
 ### 言語
 |言語|レベル|備考|
 |---|---|---|
+|Go|A|REAT APIの作成|
+|Kotlin|B|Spring Bootを使用してREAT APIを作成|
 |TypeScript|A|フロントエンド、サーバーサイド共に利用|
 |JavaScript|A|フロントエンド、サーバーサイド共に利用|
-|PHP|A|Laravelを使用してREAT APIを作成|
+|PHP|A|Laravelを使用してREAT APIを作成。現在は使用していません。|
 |Scala|C|Gatlingの実装に利用|
 |HTML|A||
 |CSS|B|Bulma、Bootstrapのフレームワークについても利用経験あり|
-|Apex|A|Salesforceの開発|
+|Apex|A|Salesforceの開発。現在は使用していません。|
 |VB.NET|B|過去に開発経験あり。現在は使用していません。|
 
 ### フレームワーク
 |フレームワーク|レベル|備考|
 |---|---|---|
+|Spring Boot|A|REAT APIの開発に利用|
 |Laravel|A|REAT APIの開発に利用|
 |Express|A||
+|React|A|社内向けのアプリケーション開発に利用|
 |Vue.js|A|Vue.js + Vuex + vue-router + TypeScriptでのSPA開発|
 |Nuxt.js|B|Vue.jsのプロジェクトを移行|
+|Next.js|B|個人開発のアプリケーションで利用|
 
 ### クラウド
 
@@ -58,7 +65,7 @@ AWSを利用したインフラ構築、バックエンドをメインとして�
 |---|---|---|
 |EC2|A|Webサーバとして利用|
 |ECS|A|本番環境でFargateを利用。EC2モードは開発環境のみで利用|
-|RDS|A|MySQLを利用|
+|RDS|A|Aurora MySQL、Aurora PostgreSQLを利用|
 |S3|A|画像サーバやCloudFrontと合わせてSPAの配信等、様々な場面で利用|
 |CloudFront|A|CDNとして利用|
 |Lambda|B|インフラ周りのタスクやNuxt.jsを動作させるために利用|
@@ -66,7 +73,19 @@ AWSを利用したインフラ構築、バックエンドをメインとして�
 |Route53|A|DNSサーバとしていつも利用|
 |IAM|A||
 |ALB|A||
-|CloudFormation|B|Serverless Framework を通して利用|	
+|StepFunctions|A|バッチ処理で利用|
+|DataSync|A||
+|WAF|A||
+|GuardDuty|A||
+|Cognito|A|UserPoolを用いて認証基盤を構築。社内向けで利用|
+|OpenSearch|A|KibanaによるALBアクセスログの可視化、Alertを利用した監視設定に利用|
+|Organizations|A||
+|SES|A|社外向けで利用|
+|ElastiCache|A|Redisを利用|
+|CodeDeploy|A|ECSへのBlue/Greenデプロイの仕組みを構築|
+|Kinesis Data Firehose|A|ログなどをS3に保存するため、CloudWatchメトリクスストリームを利用してメトリクスをDatadogに送信するために利用|
+|Athena|A|ログの検索等に利用| 
+|CloudFormation|B|基本的にはTerraformを利用しているが、一部で利用|	
 
 VPCやCloudWatch等のAWSを利用すれば必ず利用するような物は含めておりません。
 
@@ -75,6 +94,8 @@ VPCやCloudWatch等のAWSを利用すれば必ず利用するような物は含�
 |---|---|---|
 |Docker|A|開発環境での利用、AWS ECSでの利用共に経験あり|
 |Terraform|A|AWSの構成管理で利用|
+|Datadog|A|監視基盤を構築|
+|PagerDuty|B|導入したてで、まだ経験が浅いです|
 
 ### その他
 |key|value|
@@ -87,7 +108,48 @@ VPCやCloudWatch等のAWSを利用すれば必ず利用するような物は含�
 その為にもフロント、バックエンド、インフラの各分野で利用出来る技術の幅を増やしていきたいと思っています。
 
 ## 主な業務経歴
-### EC2で作成されているWebAPIをDockerに移行(Docker/AWS)
+
+### 社内向けアプリケーションの新規開発 (2020-2021)
+- 利用した技術
+  - Spring Boot、Kotlin
+  - React、TypeScript
+  - AWS(ECS Fargate/Aurora PostgreSQL)
+- 担当業務
+  - Reactを使用したフロントエンド開発
+  - Spring Bootを利用したWebAPIの開発
+  - TerraformによるAWSのインフラ構築
+  - チューニング
+- プロジェクトの成果
+  - フロントエンドからインフラ構築まで全ての行程を担当
+
+### 金融系企業でAWSを中心としたインフラの構築、監視基盤の構築 (2019-2021)
+- 利用した技術
+  - AWS
+  - Datadog
+- 担当業務
+  - TerraformによるAWSのインフラ設計・構築・運用
+  - Datadogを利用した監視体制の設計・開発・運用
+  - AWSの運用に必要なツールの開発(Lambda + Go の組み合わせが多い)
+  - AWSの運用改善
+    - AWSのサービスを導入したセキュリティの強化、IAMアカウント管理見直し、コスト削減のための構成見直しなど
+  - EC2上のアプリケーションをECS Fargateに移行
+    - インフラの設計構築、監視設定、性能試験、チューニング、CI/CDの構築などを担当
+  - EC2上のバッチ処理をStepFunctions + ECS Fargateに移行
+    - インフラの設計構築、監視設定、CI/CDの構築などを担当
+- プロジェクトの成果
+  - 「EC2上のアプリケーションをECS Fargateに移行」に関して
+    - EC2からFargateに変更することで、EC2の運用コストやAWSコストを削減した
+    - 無停止によるリリースを行い、ユーザーに影響がで無い形で移行を完了させた
+    - ECSでの開発経験を生かし、EC2からECSに移行する際の注意点を先行してチームに共有しすることで開発速度が向上した
+  - 「EC2上のバッチ処理をStepFunctions + ECS Fargateに移行」に関して
+    - EC2を常時起動する構成からバッチの実行時のみFargateを起動する構成に変更したため、EC2の運用コストやAWSコストを削減できた
+    - StepFunctionsのエラー処理やLambdaによるエラーハンドリングを導入することで、AWS側で障害が発生した場合も自動で再実行する仕組みを導入し、安定的なバッチの実行環境を構築した
+    - 開発の初期段階でCI/CDを導入することにより、チームの開発速度が向上した
+  - 監視が不十分な状態から監視基盤を構築することで、サービスの異常にすぐに対応できる状態にした
+  - チームにTerraformを扱ったことがあるメンバーが少なかったのでTerraformの社内向けの勉強会を開催し、インフラ担当者以外もTerraformを利用してAWSの設定ができるようになった
+    - 勉強会を録画として残すことで、新規メンバーが参画した際もTerraformのキャッチアップできる環境になっている
+
+### EC2で作成されているWebAPIをDockerに移行(Docker/AWS) (2019)
 - 利用した技術
   - Docker
   - AWS ECS（Fargate）
@@ -99,7 +161,7 @@ VPCやCloudWatch等のAWSを利用すれば必ず利用するような物は含�
   - ローカル開発環境のDocker移行により、チームメンバー間の環境構築における差異を最小化した 
   - デプロイを簡素化し、開発生産性を向上した
 
-### メディア系Webアプリケーションの開発(Nuxt.js/Laravel/AWS)
+### メディア系Webアプリケーションの開発(Nuxt.js/Laravel/AWS) (2019)
 - 利用した技術
   - Nuxt.js
   - TypeScript
@@ -157,7 +219,23 @@ VPCやCloudWatch等のAWSを利用すれば必ず利用するような物は含�
   - テスト
 
 ## その他
-### 個人プロダクト
+
+新しい技術や領域にチャレンジするために個人開発をしています。
+
+### 個人プロダクト (LGTMeow)
+友人との共同開発で「LGTMeow」という猫のLGTM画像を共有出来るサービスを作成しました(2021年)。
+
+- 利用した技術
+  - Next.js、TypeScript
+  - Go
+  - Vercel(Next.jsを動作させるために利用)
+  - AWS(S3/CloudFront/Lambda/API Gateway/Cognito)
+- 担当業務
+  - Next.jsを利用したフロントエンド開発
+  - Goを利用したWebAPIの開発
+  - TerraformによるAWSのインフラ構築
+
+### 個人プロダクト (Mindexer)
 友人との共同開発で「Mindexer」というQiitaのストックを管理するためのサービスを作成しました(2019年)。
 
 - 利用した技術(詳細についてはこちらの記事に記載してあります。[AWS + Laravel + Vue.js でQiitaのストックを整理するサービスを作りました！【個人開発】](https://qiita.com/kobayashi-m42/items/14e137727ffda3bf79e7))
@@ -168,36 +246,7 @@ VPCやCloudWatch等のAWSを利用すれば必ず利用するような物は含�
 - 担当業務
   - Vue.jsを利用したフロントエンド開発(デザイン含めて担当)
   - Laravelを利用したWebAPIの開発
-  - TerraformによるAWSのインフラ構築 
+  - TerraformによるAWSのインフラ構築
 - 補足
   - QiitaAPIのOAuthを利用した認証・認可処理も構築しており、OAuthの知識もあります。
 
-### 興味があること
-個人活動での学習を進めると共に、業務でも利用していきたいと考えています。
-
-- GlaphQL
-
-  REST APIの場合、フロントエンドからバックエンドに通信する際に、1ページを表示するために複数のAPIを呼び出す必要があるといったように、通信部分で苦労したため、GlaphQLに興味を持ちました。
-
-  今後、需要が増える技術だと思うので、バックエンドがGraphQLというパターンを経験したいです。
-
-- Go
-
-  高性能、かつ、コンテナ技術との相性が良いので、今バックエンドでもっとも興味がある言語の1つです。
-
-  EC2製のアプリケーションをAWS Fargateに置き換えた案件をやった際にコンテナ技術に興味を持った事をきっかけにこの言語にも興味が出てきました。
-
-  まだ先になると思いますが個人プロダクト（Mindexer）で導入予定です。
-
-  現在バックエンドをPHPとLaravelをメインに書いていますが、そこにGoLangという選択肢を増やせると良いと思っています。（余裕があればKubernetesやgRPC等も手を出してみたいです。）
-
-- React
-
-  フロントエンドの技術選定をする際に、Reactについて調査を行いました。
-
-  結局その時はVue.jsを採用したのですが、[りあクト！ TypeScriptで始めるつらくないReact開発（上下合本）](https://booth.pm/ja/items/1044097) という書籍を読み、改めて興味を持ちました。
-
-    - 関数側プログラミングに強く影響を受けている点（関数型の設計手法に前から興味がありました）
-    - TypeScriptとの相性が良好な点（Vue.jsはTypeScriptの対応が現時点ではイマイチと感じていた）
-
-  次にフロントエンドを担当する際に試してみたい技術です。
