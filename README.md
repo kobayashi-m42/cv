@@ -80,6 +80,11 @@ AWSを利用したインフラ構築、監視基盤の構築、バックエン�
 |Cognito|A|UserPoolを用いて認証基盤を構築。社内向けで利用|
 |OpenSearch|A|KibanaによるALBアクセスログの可視化、Alertを利用した監視設定に利用|
 |Organizations|A||
+|SES|A|社外向けで利用|
+|ElastiCache|A|Redisを利用|
+|CodeDeploy|A|ECSへのBlue/Greenデプロイの仕組みを構築|
+|Kinesis Data Firehose|A|ログなどをS3に保存するため、CloudWatchメトリクスストリームを利用してメトリクスをDatadogに送信するために利用|
+|Athena|A|ログの検索等に利用| 
 |CloudFormation|B|基本的にはTerraformを利用しているが、一部で利用|	
 
 VPCやCloudWatch等のAWSを利用すれば必ず利用するような物は含めておりません。
