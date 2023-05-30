@@ -1,15 +1,15 @@
 # 業務経歴書
 
 ## 基本情報
-|key|value|
-|---|---|
-|GitHub|[kobayashi-m42](https://github.com/kobayashi-m42)|
-|GitHub(友人と共同で運営しているOrganization)|[nekochans](https://github.com/nekochans)|
-|Qiita|[@kobayashi-m42](https://qiita.com/kobayashi-m42)|
-|Zenn|[@kobayashi-m42](https://zenn.dev/kobayashi_m42)|
-|個人プロダクト|[Mindexer](https://www.mindexer.net)(Qiitaのストックを整理するためのサービスです)|
-|個人プロダクト|[LGTMeow](https://lgtmeow.com)(猫のLGTM画像を共有出来るサービスです)|
-|Twitter|[@kobayashi-m42](https://twitter.com/kobayashi_m42)|
+| key                              | value                                                          |
+|----------------------------------|----------------------------------------------------------------|
+| GitHub                           | [kobayashi-m42](https://github.com/kobayashi-m42)              |
+| GitHub(友人と共同で運営しているOrganization) | [nekochans](https://github.com/nekochans)                      |
+| Qiita                            | [@kobayashi-m42](https://qiita.com/kobayashi-m42)              |
+| Zenn                             | [@kobayashi-m42](https://zenn.dev/kobayashi_m42)               |
+| 個人プロダクト                          | [Mindexer](https://www.mindexer.net)(Qiitaのストックを整理するためのサービスです) |
+| 個人プロダクト                          | [LGTMeow](https://lgtmeow.com)(猫のLGTM画像を共有出来るサービスです)           |
+| Twitter                          | [@kobayashi-m42](https://twitter.com/kobayashi_m42)            |
 
 ## 概要
 Web系エンジニアです。現在は、フリーランスとして活動。
@@ -34,73 +34,73 @@ AWSを利用したインフラ構築、監視基盤の構築、バックエン�
 - C:経験はあるが理解が浅く、勉強中
 
 ### 言語
-|言語|レベル|備考|
-|---|---|---|
-|Go|A|REAT APIの作成|
-|Kotlin|B|Spring Bootを使用してREAT APIを作成|
-|TypeScript|A|フロントエンド、サーバーサイド共に利用|
-|JavaScript|A|フロントエンド、サーバーサイド共に利用|
-|PHP|A|Laravelを使用してREAT APIを作成。現在は使用していません。|
-|Scala|C|Gatlingの実装に利用|
-|HTML|A||
-|CSS|B|Bulma、Bootstrapのフレームワークについても利用経験あり|
-|Apex|A|Salesforceの開発。現在は使用していません。|
-|VB.NET|B|過去に開発経験あり。現在は使用していません。|
+| 言語         | レベル | 備考                                   |
+|------------|-----|--------------------------------------|
+| Go         | A   | REAT APIの作成                          |
+| Kotlin     | B   | Spring Bootを使用してREAT APIを作成          |
+| TypeScript | A   | フロントエンド、サーバーサイド共に利用                  |
+| JavaScript | A   | フロントエンド、サーバーサイド共に利用                  |
+| PHP        | A   | Laravelを使用してREAT APIを作成。現在は使用していません。 |
+| Scala      | C   | Gatlingの実装に利用                        |
+| HTML       | A   ||
+| CSS        | B   | Bulma、Bootstrapのフレームワークについても利用経験あり   |
+| Apex       | A   | Salesforceの開発。現在は使用していません。           |
+| VB.NET     | B   | 過去に開発経験あり。現在は使用していません。               |
 
 ### フレームワーク
-|フレームワーク|レベル|備考|
-|---|---|---|
-|Spring Boot|A|REAT APIの開発に利用|
-|Laravel|A|REAT APIの開発に利用|
-|Express|A||
-|React|A|社内向けのアプリケーション開発に利用|
-|Vue.js|A|Vue.js + Vuex + vue-router + TypeScriptでのSPA開発|
-|Nuxt.js|B|Vue.jsのプロジェクトを移行|
-|Next.js|B|個人開発のアプリケーションで利用|
+| フレームワーク     | レベル | 備考                                             |
+|-------------|-----|------------------------------------------------|
+| Spring Boot | A   | REAT APIの開発に利用                                 |
+| Laravel     | A   | REAT APIの開発に利用                                 |
+| Express     | A   ||
+| React       | A   | 社内向けのアプリケーション開発に利用                             |
+| Vue.js      | A   | Vue.js + Vuex + vue-router + TypeScriptでのSPA開発 |
+| Nuxt.js     | B   | Vue.jsのプロジェクトを移行                               |
+| Next.js     | B   | 個人開発のアプリケーションで利用                               |
 
 ### クラウド
 
 #### AWS
-|サービス名|レベル|備考|
-|---|---|---|
-|EC2|A|Webサーバとして利用|
-|ECS|A|本番環境でFargateを利用。EC2モードは開発環境のみで利用|
-|RDS|A|Aurora MySQL、Aurora PostgreSQLを利用|
-|S3|A|画像サーバやCloudFrontと合わせてSPAの配信等、様々な場面で利用|
-|CloudFront|A|CDNとして利用|
-|Lambda|B|インフラ周りのタスクやNuxt.jsを動作させるために利用|
-|API Gateway|B|AWS Lambdaと組み合わせて利用|
-|Route53|A|DNSサーバとしていつも利用|
-|IAM|A||
-|ALB|A||
-|StepFunctions|A|バッチ処理で利用|
-|DataSync|A||
-|WAF|A||
-|GuardDuty|A||
-|Cognito|A|UserPoolを用いて認証基盤を構築。社内向けで利用|
-|OpenSearch|A|KibanaによるALBアクセスログの可視化、Alertを利用した監視設定に利用|
-|Organizations|A||
-|SES|A|社外向けで利用|
-|ElastiCache|A|Redisを利用|
-|CodeDeploy|A|ECSへのBlue/Greenデプロイの仕組みを構築|
-|Kinesis Data Firehose|A|ログなどをS3に保存するため、CloudWatchメトリクスストリームを利用してメトリクスをDatadogに送信するために利用|
-|Athena|A|ログの検索等に利用| 
-|CloudFormation|B|基本的にはTerraformを利用しているが、一部で利用|	
+| サービス名                 | レベル | 備考                                                              |
+|-----------------------|-----|-----------------------------------------------------------------|
+| EC2                   | A   | Webサーバとして利用                                                     |
+| ECS                   | A   | 本番環境でFargateを利用。EC2モードは開発環境のみで利用                                |
+| RDS                   | A   | Aurora MySQL、Aurora PostgreSQLを利用                               |
+| S3                    | A   | 画像サーバやCloudFrontと合わせてSPAの配信等、様々な場面で利用                           |
+| CloudFront            | A   | CDNとして利用                                                        |
+| Lambda                | B   | インフラ周りのタスクやNuxt.jsを動作させるために利用                                   |
+| API Gateway           | B   | AWS Lambdaと組み合わせて利用                                             |
+| Route53               | A   | DNSサーバとしていつも利用                                                  |
+| IAM                   | A   ||
+| ALB                   | A   ||
+| StepFunctions         | A   | バッチ処理で利用                                                        |
+| DataSync              | A   ||
+| WAF                   | A   ||
+| GuardDuty             | A   ||
+| Cognito               | A   | UserPoolを用いて認証基盤を構築。社内向けで利用                                     |
+| OpenSearch            | A   | KibanaによるALBアクセスログの可視化、Alertを利用した監視設定に利用                        |
+| Organizations         | A   ||
+| SES                   | A   | 社外向けで利用                                                         |
+| ElastiCache           | A   | Redisを利用                                                        |
+| CodeDeploy            | A   | ECSへのBlue/Greenデプロイの仕組みを構築                                      |
+| Kinesis Data Firehose | A   | ログなどをS3に保存するため、CloudWatchメトリクスストリームを利用してメトリクスをDatadogに送信するために利用 |
+| Athena                | A   | ログの検索等に利用                                                       | 
+| CloudFormation        | B   | 基本的にはTerraformを利用しているが、一部で利用                                    |	
 
 VPCやCloudWatch等のAWSを利用すれば必ず利用するような物は含めておりません。
 
 ### インフラ関連
-|サービス名|レベル|備考|
-|---|---|---|
-|Docker|A|開発環境での利用、AWS ECSでの利用共に経験あり|
-|Terraform|A|AWSの構成管理で利用|
-|Datadog|A|監視基盤を構築|
-|PagerDuty|B|導入したてで、まだ経験が浅いです|
+| サービス名     | レベル | 備考                         |
+|-----------|-----|----------------------------|
+| Docker    | A   | 開発環境での利用、AWS ECSでの利用共に経験あり |
+| Terraform | A   | AWSの構成管理で利用                |
+| Datadog   | A   | 監視基盤を構築                    |
+| PagerDuty | B   | 導入したてで、まだ経験が浅いです           |
 
 ### その他
-|key|value|
-|---|---|
-|Salesforce|社内システムのでの利用。要件定義から開発・運用保守までを担当。|
+| key        | value                           |
+|------------|---------------------------------|
+| Salesforce | 社内システムのでの利用。要件定義から開発・運用保守までを担当。 |
 
 ## 目指しているエンジニア像
 小・中規模のサービスをアーキテクチャから選定し高品質で運用コストが低いシステムを開発していきたいです。
@@ -249,4 +249,3 @@ VPCやCloudWatch等のAWSを利用すれば必ず利用するような物は含�
   - TerraformによるAWSのインフラ構築
 - 補足
   - QiitaAPIのOAuthを利用した認証・認可処理も構築しており、OAuthの知識もあります。
-
