@@ -1,15 +1,14 @@
 # 業務経歴書
 
 ## 基本情報
-|key|value|
-|---|---|
-|GitHub|[kobayashi-m42](https://github.com/kobayashi-m42)|
-|GitHub(友人と共同で運営しているOrganization)|[nekochans](https://github.com/nekochans)|
-|Qiita|[@kobayashi-m42](https://qiita.com/kobayashi-m42)|
-|Zenn|[@kobayashi-m42](https://zenn.dev/kobayashi_m42)|
-|個人プロダクト|[Mindexer](https://www.mindexer.net)(Qiitaのストックを整理するためのサービスです)|
-|個人プロダクト|[LGTMeow](https://lgtmeow.com)(猫のLGTM画像を共有出来るサービスです)|
-|Twitter|[@kobayashi-m42](https://twitter.com/kobayashi_m42)|
+| key                              | value                                                |
+|----------------------------------|------------------------------------------------------|
+| GitHub                           | [kobayashi-m42](https://github.com/kobayashi-m42)    |
+| GitHub(友人と共同で運営しているOrganization) | [nekochans](https://github.com/nekochans)            |
+| Qiita                            | [@kobayashi-m42](https://qiita.com/kobayashi-m42)    |
+| Zenn                             | [@kobayashi-m42](https://zenn.dev/kobayashi_m42)     |
+| 個人プロダクト                          | [LGTMeow](https://lgtmeow.com)(猫のLGTM画像を共有出来るサービスです) |
+| Twitter                          | [@kobayashi-m42](https://twitter.com/kobayashi_m42)  |
 
 ## 概要
 Web系エンジニアです。現在は、フリーランスとして活動。
@@ -17,97 +16,131 @@ Web系エンジニアです。現在は、フリーランスとして活動。
 AWSを利用したインフラ構築、監視基盤の構築、バックエンドをメインとしています。
 
 ## 強み
-- AWSを得意とし、インフラ、監視の設計・構築・運用が出来ます。
-- コードによるクラウドインフラ構成管理の自動化。コード化することで、インフラを安全かつ効率的に管理します。
-- テストコードや設計手法を工夫した、保守性・拡張性の高いシステムを構築するすることが可能です。
-- アジャイル開発によるプロジェクト管理経験があり、アジャイル開発を用いたチームビルディングが出来ます。
+- AWSを利用したインフラの設計・構築・運用
+- Datadog等を利用した監視体制の設計・開発・運用
+- Terraformを利用したIaCによるインフラ開発の効率化、自動化
+- テストコードや設計手法を工夫した、保守性・拡張性の高いシステムの構築
+- CI/CDの導入等の開発生産性を向上するための取り組み
 
-主に新規開発や、サービスのリプレイスフェーズにおいて最もバリューを発揮出来るタイプです。
+Web開発においてインフラの整備からバックエンドアプリケーションの開発までの工程を担当できます。
 
-## 得意じゃない事
-- Webデザイン(CSSの利用は可能)
+新規開発、サービスのリプレイスフェーズにおいて最もバリューを発揮出来るかと思います。
 
-## スキルレベル
+## スキル
 スキルの習熟度の目安は下記の通りです。
 - A:概ね理解し、開発に必要なスキルを持っている
 - B:部分的に理解し、調べながら開発することが可能
 - C:経験はあるが理解が浅く、勉強中
 
 ### 言語
-|言語|レベル|備考|
-|---|---|---|
-|Go|A|REAT APIの作成|
-|Kotlin|B|Spring Bootを使用してREAT APIを作成|
-|TypeScript|A|フロントエンド、サーバーサイド共に利用|
-|JavaScript|A|フロントエンド、サーバーサイド共に利用|
-|PHP|A|Laravelを使用してREAT APIを作成。現在は使用していません。|
-|Scala|C|Gatlingの実装に利用|
-|HTML|A||
-|CSS|B|Bulma、Bootstrapのフレームワークについても利用経験あり|
-|Apex|A|Salesforceの開発。現在は使用していません。|
-|VB.NET|B|過去に開発経験あり。現在は使用していません。|
+| 言語         | レベル | 備考                                   |
+|------------|-----|--------------------------------------|
+| Go         | A   | REAT APIの作成                          |
+| Kotlin     | B   | Spring Bootを使用してREAT APIを作成          |
+| TypeScript | A   | フロントエンド、サーバーサイド共に利用                  |
+| JavaScript | A   | フロントエンド、サーバーサイド共に利用                  |
+| PHP        | A   | Laravelを使用してREAT APIを作成。現在は使用していません。 |
+| Scala      | C   | Gatlingの実装に利用                        |
+| HTML       | A   ||
+| CSS        | B   | Bulma、Bootstrapのフレームワークについても利用経験あり   |
+| Apex       | A   | Salesforceの開発。現在は使用していません。           |
+| VB.NET     | B   | 過去に開発経験あり。現在は使用していません。               |
 
 ### フレームワーク
-|フレームワーク|レベル|備考|
-|---|---|---|
-|Spring Boot|A|REAT APIの開発に利用|
-|Laravel|A|REAT APIの開発に利用|
-|Express|A||
-|React|A|社内向けのアプリケーション開発に利用|
-|Vue.js|A|Vue.js + Vuex + vue-router + TypeScriptでのSPA開発|
-|Nuxt.js|B|Vue.jsのプロジェクトを移行|
-|Next.js|B|個人開発のアプリケーションで利用|
+| フレームワーク     | レベル | 備考                                             |
+|-------------|-----|------------------------------------------------|
+| Spring Boot | A   | REAT APIの開発に利用                                 |
+| Laravel     | A   | REAT APIの開発に利用                                 |
+| Express     | A   ||
+| React       | A   | 社内向けのアプリケーション開発に利用                             |
+| Vue.js      | A   | Vue.js + Vuex + vue-router + TypeScriptでのSPA開発 |
+| Nuxt.js     | B   | Vue.jsのプロジェクトを移行                               |
+| Next.js     | B   | 個人開発のアプリケーションで利用                               |
 
 ### クラウド
 
 #### AWS
-|サービス名|レベル|備考|
-|---|---|---|
-|EC2|A|Webサーバとして利用|
-|ECS|A|本番環境でFargateを利用。EC2モードは開発環境のみで利用|
-|RDS|A|Aurora MySQL、Aurora PostgreSQLを利用|
-|S3|A|画像サーバやCloudFrontと合わせてSPAの配信等、様々な場面で利用|
-|CloudFront|A|CDNとして利用|
-|Lambda|B|インフラ周りのタスクやNuxt.jsを動作させるために利用|
-|API Gateway|B|AWS Lambdaと組み合わせて利用|
-|Route53|A|DNSサーバとしていつも利用|
-|IAM|A||
-|ALB|A||
-|StepFunctions|A|バッチ処理で利用|
-|DataSync|A||
-|WAF|A||
-|GuardDuty|A||
-|Cognito|A|UserPoolを用いて認証基盤を構築。社内向けで利用|
-|OpenSearch|A|KibanaによるALBアクセスログの可視化、Alertを利用した監視設定に利用|
-|Organizations|A||
-|SES|A|社外向けで利用|
-|ElastiCache|A|Redisを利用|
-|CodeDeploy|A|ECSへのBlue/Greenデプロイの仕組みを構築|
-|Kinesis Data Firehose|A|ログなどをS3に保存するため、CloudWatchメトリクスストリームを利用してメトリクスをDatadogに送信するために利用|
-|Athena|A|ログの検索等に利用| 
-|CloudFormation|B|基本的にはTerraformを利用しているが、一部で利用|	
+| サービス名                 | レベル | 備考                                                              |
+|-----------------------|-----|-----------------------------------------------------------------|
+| EC2                   | A   | Webサーバとして利用                                                     |
+| ECS                   | A   | Fargateを利用                                                      |
+| RDS                   | A   | Aurora MySQL、Aurora PostgreSQLを利用                               |
+| S3                    | A   | 画像サーバやCloudFrontと合わせてSPAの配信等、様々な場面で利用                           |
+| CloudFront            | A   | CDNとして利用                                                        |
+| Lambda                | A   | REST APIやインフラ周りのタスクやNuxt.jsを動作させるために利用                          |
+| API Gateway           | A   | AWS Lambdaと組み合わせて利用                                             |
+| Route53               | A   | DNSサーバとして利用                                                     |
+| IAM                   | A   ||
+| ALB                   | A   ||
+| StepFunctions         | A   | バッチ処理で利用                                                        |
+| DataSync              | A   ||
+| WAF                   | A   ||
+| GuardDuty             | A   ||
+| Inspector             | B   | ECRの拡張スキャンを利用                                                   |
+| Cognito               | A   | UserPoolを用いて認証基盤を構築。                                            |
+| OpenSearch            | A   | KibanaによるALBアクセスログの可視化、Alertを利用した監視設定に利用                        |
+| Organizations         | A   ||
+| SES                   | A   | 社外向けで利用                                                         |
+| ElastiCache           | A   | キャッシュサーバとしてRedisを利用                                             |
+| CodeDeploy            | A   | ECSへのBlue/Greenデプロイの仕組みを構築                                      |
+| Kinesis Data Firehose | A   | ログなどをS3に保存するため、CloudWatchメトリクスストリームを利用してメトリクスをDatadogに送信するために利用 |
+| Athena                | A   | ログの検索等に利用                                                       | 
+| CloudFormation        | B   | 基本的にはTerraformを利用しているが、一部で利用                                    |	
 
 VPCやCloudWatch等のAWSを利用すれば必ず利用するような物は含めておりません。
 
+#### その他
+| サービス名     | レベル | 備考                         |
+|-----------|-----|----------------------------|
+| Upstash   | A   | キャッシュサーバーとしてRedisを利用       |
+
 ### インフラ関連
-|サービス名|レベル|備考|
-|---|---|---|
-|Docker|A|開発環境での利用、AWS ECSでの利用共に経験あり|
-|Terraform|A|AWSの構成管理で利用|
-|Datadog|A|監視基盤を構築|
-|PagerDuty|B|導入したてで、まだ経験が浅いです|
+| サービス名     | レベル | 備考                         |
+|-----------|-----|----------------------------|
+| Docker    | A   | 開発環境での利用、AWS ECSでの利用共に経験あり |
+| Terraform | A   | AWSの構成管理で利用                |
+| Datadog   | A   | 監視基盤を構築                    |
+| PagerDuty | B   | オンコール体制の構築                 |
 
 ### その他
-|key|value|
-|---|---|
-|Salesforce|社内システムのでの利用。要件定義から開発・運用保守までを担当。|
-
-## 目指しているエンジニア像
-小・中規模のサービスをアーキテクチャから選定し高品質で運用コストが低いシステムを開発していきたいです。
-
-その為にもフロント、バックエンド、インフラの各分野で利用出来る技術の幅を増やしていきたいと思っています。
+| key            | value                           |
+|----------------|---------------------------------|
+| Salesforce     | 社内システムのでの利用。要件定義から開発・運用保守までを担当。 |
+| GitHub Actions | CI/CDに利用                        |
 
 ## 主な業務経歴
+
+### メディア系WebアプリケーションのBFFの開発(Go/AWS) (2022-2023)
+- プロジェクトの概要
+  - メディア系アプリケーションのフロントエンドのリプレイスに伴いBFFを構築
+- 利用した技術
+  - Go
+  - AWS(ECS Fargate)
+  - Upstash(Redis)
+  - Sentry
+- 担当業務
+  - アーキテクチャの選定、設計・開発
+  - Goを使用したBFFの構築
+  - TerraformによるAWSのインフラ構築
+  - エラー監視としてSentryの導入
+- プロジェクトの成果
+  - BFFの構築によりフロントエンドのパフォーマンスを改善
+  - Redisの導入により既存サーバーへの負荷削減、レスポンス速度の改善
+
+### メディア系Webアプリケーションのインフラの構築・運用(AWS) (2022-2023)
+- プロジェクトの概要
+  - メディア系アプリケーションのインフラを担当
+  - 既存のインフラ構成の改善、運用、開発、アーキテクチャの選定をを担当
+- 利用した技術
+  - AWS
+  - Terraform
+  - GitHub Actions
+- 担当業務
+  - Terraform構成の見直し
+  - 不要コスト削減
+  - Terraform, AWS Providerのバージョンアップ
+  - 運用作業
+  - CI/CDの構築
 
 ### 社内向けアプリケーションの新規開発 (2020-2021)
 - 利用した技術
@@ -122,7 +155,7 @@ VPCやCloudWatch等のAWSを利用すれば必ず利用するような物は含�
 - プロジェクトの成果
   - フロントエンドからインフラ構築まで全ての行程を担当
 
-### 金融系企業でAWSを中心としたインフラの構築、監視基盤の構築 (2019-2021)
+### 金融系企業でAWSを中心としたインフラの構築、監視基盤の構築 (2019-2022)
 - 利用した技術
   - AWS
   - Datadog
@@ -250,3 +283,15 @@ VPCやCloudWatch等のAWSを利用すれば必ず利用するような物は含�
 - 補足
   - QiitaAPIのOAuthを利用した認証・認可処理も構築しており、OAuthの知識もあります。
 
+## 目指しているエンジニア像
+小・中規模のサービスをアーキテクチャから選定し高品質で運用コストが低いシステムを開発していきたいです。
+
+その為にもインフラ、バックエンドの各分野で利用出来る技術の幅を増やしていきたいと思っています。
+
+## 意欲・興味
+- 小さな単位でリリースし、素早く改善サイクルを回すアジャイルな開発スタイルを好みます
+- 言われたことだけをやるのではなく、目的や背景を共有し要件定義から関われる開発スタイルを好みます
+- インフラからバックエンドまで幅広い技術領域に取り組みたいです
+
+## 希望条件
+- 地方在住のためリモートでの勤務を希望します
